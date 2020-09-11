@@ -1,1 +1,27 @@
 mern-exercise-tracker/backend/.env
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# backend dependencies
+/backend/node_modules
+
+# dependencies
+mern-exercise-tracker/node_modules
+mern-exercise-tracker/.pnp
+mern-exercise-tracker/.pnp.js
+
+# testing
+mern-exercise-tracker/coverage
+
+# production
+mern-exercise-tracker/build
+
+# misc
+mern-exercise-tracker/.DS_Store
+mern-exercise-tracker/.env.local
+mern-exercise-tracker/.env.development.local
+mern-exercise-tracker/.env.test.local
+mern-exercise-tracker/.env.production.local
+
+mern-exercise-trackernpm-debug.log*
+mern-exercise-trackeryarn-debug.log*
+mern-exercise-trackeryarn-error.log*
